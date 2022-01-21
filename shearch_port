@@ -1,0 +1,5 @@
+import os 
+
+ip = input("entre l'ip: ")
+
+os.system(f"nmap -p {ip}/24")
